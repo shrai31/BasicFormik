@@ -13,8 +13,9 @@
 // import ResetWriteData from './11.ResetTheFormData/ResetFormData';
 // import FormikContainer from './12.ResableFormikControls/FormikContainer';
 import './App.css';
+import EnrollmentForm from './EnrollmentForm/EnrollmentForm';
 // import LoginForm from './LoginForm/LoginForm';
-import RegistrationForm from './RegisterForm/RegistrationForm';
+// import RegistrationForm from './RegisterForm/RegistrationForm';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <ResetWriteData/> */}
       {/* <FormikContainer /> */}
       {/* <LoginForm /> */}
-      <RegistrationForm />
+      {/* <RegistrationForm /> */}
+      <EnrollmentForm />
     </div>
   );
 }
