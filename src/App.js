@@ -11,10 +11,10 @@
 // import DisableSubmitButton2 from './9.DisabledButton/DisableSubmitButton2';
 // import LoadData from './10.LoadData/LoadData';
 // import ResetWriteData from './11.ResetTheFormData/ResetFormData';
-import FormikContainer from './12.ResableFormikControls/FormikContainer';
+// import FormikContainer from './12.ResableFormikControls/FormikContainer';
 import './App.css';
-import LoginForm from './LoginForm/LoginForm';
-import RegistrationForm from './LoginForm/RegistrationForm';
+// import LoginForm from './LoginForm/LoginForm';
+import RegistrationForm from './RegisterForm/RegistrationForm';
 
 function App() {
   return (
