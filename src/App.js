@@ -13,6 +13,8 @@
 // import ResetWriteData from './11.ResetTheFormData/ResetFormData';
 import FormikContainer from './12.ResableFormikControls/FormikContainer';
 import './App.css';
+import LoginForm from './LoginForm/LoginForm';
+import RegistrationForm from './LoginForm/RegistrationForm';
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <DisableSubmitButton2 /> */}
       {/* <LoadData /> */}
       {/* <ResetWriteData/> */}
-      <FormikContainer />
+      {/* <FormikContainer /> */}
+      {/* <LoginForm /> */}
+      <RegistrationForm />
     </div>
   );
 }
