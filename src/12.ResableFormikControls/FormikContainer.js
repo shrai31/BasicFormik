@@ -25,14 +25,14 @@ function FormikContainer() {
     description:'',
     select:'',
     radioOption:'',
-    checkboxOption: [],
+    checkboxOption: '',
   };
   const validateSchema = Yup.object().shape({
     email: Yup.string().email('invalid').required("Required"),
     description: Yup.string().required("Required"),
     select: Yup.string().required("Required"),
     radioOption: Yup.string().required("Required"),
-    checkboxOption: Yup.string.required("Required"),
+    checkboxOption: Yup.string().required("Required"),
   });
   const onSubmit = (values) => console.log("form Data", values);
   return (
