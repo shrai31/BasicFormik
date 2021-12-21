@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+// import ThreeFieldForm from './1.SimpleForm/i)ThreeFieldForm';
+// import FinalForm from './1.SimpleForm/ii)FinalForm';
+// import RectifyFromik from './2.FormikSchemaValidationWithYup/ii)RectifyFromik';
+// import FromikNestedObjects from './3.FormikNestedObject/FormikNestedObject';
+// import FieldArrayComponent from './4.FieldArray/FieldArrayComponent';
+// import FastFieldComponents from './5.FastFieldComponents/FastFieldComponents';
+// import FieldLevelValidation from './7.FieldLevelValidation/FieldLevelValidation';
+// import TriggerValidationInFormFieldLevel from './8.TriggerValidationInForm&FieldLevel/TriggerValidationInForm&FieldLevel';
+// import ValidationRun from './6.ValidationRun/ValidationRun';
+// import DisableSubmitButton from './9.DisabledButton/DisableSubmitButton';
+// import DisableSubmitButton2 from './9.DisabledButton/DisableSubmitButton2';
+// import LoadData from './10.LoadData/LoadData';
+// import ResetWriteData from './11.ResetTheFormData/ResetFormData';
+import FormikContainer from './12.ResableFormikControls/FormikContainer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <RectifyFromik /> */}
+      {/* <ThreeFieldForm /> */}
+      {/* <RectifyFromik /> */}
+      {/* <FinalForm /> */}
+      {/* <FromikNestedObjects /> */}
+      {/* <FieldArrayComponent /> */}
+      {/* <FastFieldComponents /> */}
+      {/* <ValidationRun /> */}
+      {/* <FieldLevelValidation /> */}
+      {/* <TriggerValidationInFormFieldLevel /> */}
+      {/* <DisableSubmitButton /> */}
+      {/* <DisableSubmitButton2 /> */}
+      {/* <LoadData /> */}
+      {/* <ResetWriteData/> */}
+      <FormikContainer />
     </div>
   );
 }

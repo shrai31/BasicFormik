@@ -1,0 +1,38 @@
+
+  // formik gives the Formik component which is used for Formik Form, Field, ErrorMessage 
+  // steps i) import from formik  
+  // ii) remove the call of useFormik
+  // iii) wrap the entire form with Formik form
+  // iv) pass all your props.
+    
+
+  // Also gives the Form in formik
+  // i) remove onSubmit automatically handle the submission
+
+
+  // Field component
+  // i) import field
+  // ii) input change with field
+  // ii) remove props from everyinput field
+
+  // Error message
+  // i) import error message
+  // ii) replace the error message with error message component
+  // iii) pass the name props same as input name  
+    // console.log('formik errors', formik.errors)
+
+
+
+    // extra points
+    i) Field
+    a) as ==> it's a props that accept the it's value etiher input, select, textarea and custom select component as well.
+              default value is input 
+      component ==> this is same as as prop in field component the difference is this component is first deprecated and then undeprecated.
+    
+    b) rendering props: in its we use function as children to the component
+           step: i) field component contain opening and closing tab.
+           step: ii) as children we pass the function and will be arrow function.
+           step: iii) arrow function return the jsx
+           step: iv) props in arrow function give the 3 property a) field, b) form , c) meta
+
+    c) wrap Error message in HTML: just add component = <div>
